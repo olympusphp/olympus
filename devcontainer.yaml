@@ -1,0 +1,12 @@
+services:
+  dev:
+    image: 16nsk/devcontainers
+    command: sleep infinity
+    volumes:
+      - projects:/projects
+    ports:
+      - "${BACKEND_PORT:-8000}:8000"
+      - "${FRONTEND_PORT:-3000}:3000"
+
+volumes:
+  projects:

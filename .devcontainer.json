@@ -1,0 +1,19 @@
+{
+    "name": "olympus",
+    "dockerComposeFile": "devcontainer.yaml",
+    "service": "dev",
+    "workspaceFolder": "/projects/workspace",
+    "shutdownAction": "stopCompose",
+    "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash (login)",
+        "terminal.integrated.profiles.linux": {
+            "bash (login)": {
+                "path": "bash",
+                "args": ["-l"],
+                "icon": "terminal-ubuntu"
+            }
+        }
+    },
+    "extensions": [
+    ]
+}
