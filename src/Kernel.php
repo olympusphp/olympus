@@ -1,11 +1,9 @@
 <?php
 
-namespace App;
+namespace Olympus;
 
-use Symfony\Bundle\FrameworkBundle\Kernel\MicroKernelTrait;
-use Symfony\Component\HttpKernel\Kernel as BaseKernel;
+use Olympus\Core\Application\Kernel as BaseKernel;
 
 class Kernel extends BaseKernel
 {
-    use MicroKernelTrait;
 }
